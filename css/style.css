@@ -1,0 +1,94 @@
+/* css all common css */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+body{
+    background-color: #F2F1F0;
+}
+/* css all common css */
+
+/* css header part start here */
+#header_part{
+    padding: 18px;
+    border-bottom: 1px solid black;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header_left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(90, 89, 87);
+}
+.header_left p i{
+    color: #F5993C;
+}
+.header_left{
+    display: flex;
+    gap: 32px;
+}
+.header_right{
+    display: flex;
+    gap: 32px;
+}
+/* css header part end here */
+
+/* css navbar part */
+#navbar_part{
+padding-top: 19px;
+}
+.navbar_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+display: flex;
+gap: 56px;
+}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(91, 93, 95);
+}
+
+.btn_one{
+    margin-right: 20px;
+   background: transparent;
+    padding: 16px 40px;
+    color: #F5993C;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 32px;
+    border: 1px solid #F5993C;
+}
+
+.btn_two{
+        margin-right: 20px;
+   background: transparent;
+    padding: 16px 40px;
+    color: #F5993C;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 32px;
+    border: 1px solid #F5993C;
+}
+/* css navbar part */
